@@ -1,0 +1,158 @@
+<mjml>
+    <mj-head>
+        <mj-title>
+            title
+        </mj-title>
+        <mj-preview>
+            Preview text which will be shown as an email description
+        </mj-preview>
+        <mj-style>
+            * {
+                font-family: Helvetica, sans-serif;
+                box-sizing: border-box;
+            }
+
+            body {
+                text-align: left;
+            }
+
+            h1, h2, h3, p {
+                margin: 0;
+            }
+
+            a {
+                color: inherit;
+            }
+
+            .image-wrapper img {
+                max-width: 100%;
+                padding-right: 10px;
+            }
+
+            .rating-star {
+                display: inline-block;
+                max-width: 45px;
+                width: 15%;
+            }
+
+            .rating-star img {
+                max-width: 100%;
+            }
+
+            .button span,
+            .button-alt span {
+                display: inline-block;
+                vertical-align: middle;
+                color: #53efef;
+                font-size: 16px;
+                font-weight: 500;
+                padding-right: 13px;
+                letter-spacing: 0.5px;
+                white-space: nowrap;
+            }
+            .button img {
+                display: inline-block;
+                vertical-align: bottom;
+                width: 10px;
+            }
+
+            .button-alt {
+                display: inline-block;
+                padding: 15px 25px;
+                border-radius: 50px;
+                border: 2px solid #006baa;
+                color: #006baa;
+                text-decoration: none;
+            }
+
+            .button-alt span {
+                color: #006baa;
+                padding: 0;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body width="600px" background-color="white">
+        <mj-section padding="0" background-color="#007bc4">
+            <mj-column>
+                <mj-button href="https://some-domain-name" align="left" padding="6px 0 0" background-color="transparent">
+                    <img style="display:block; width: 110px" src="https://i.postimg.cc/ydcvpytR/logo.png" aria-label="Click here to return to the ERVi home page"  alt="logo" />
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0" background-color="#007bc4">
+            <mj-column padding="0">
+                <mj-text padding="19px 25px 51px" color="white">
+                    <div style="display: inline-block; width: 70%; vertical-align: middle;">
+                        <h1 style="font-size: 28px; margin-bottom: 24px;">Hi James </h1>
+                        <p style="font-size: 18px; line-height: 24px">Local courier delivered your <b>Gymshark</b> parcel at 13:48</p>
+                    </div>
+                    <div style="display: inline-block; width: 28%; text-align: right; vertical-align: middle;">
+                        <img src="https://i.postimg.cc/ydcvpytR/logo.png" width="60px" height="40px" style="width: 40px; margin-right: auto" alt="logo" />
+                    </div>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-wrapper padding="35px 25px 7px" background-color="#EBF0F3">
+            <mj-section padding="20px 25px" background-color="white" border="1px solid #D8E8F2" border-radius="2px" >
+                <mj-column>
+                    <mj-text color="black" padding="0">
+                        <div class="image-wrapper" style="display: inline-block; width: 20%;">
+                            <img src="https://i.postimg.cc/Mp9JZqsT/user.png" width="80px" alt="user icon" />
+                        </div>
+                        <div style="display: inline-block; width: 78%; vertical-align: top;">
+                            <h2 style="font-size: 18px; line-height: 24px; margin-bottom: 10px">Your parcel was delivered by your local courier</h2>
+                            <p style="font-size: 16px; margin-bottom: 20px">Rate your local courier to let us know how it went</p>
+                            <div>
+                                <a href="https://some-domain-name/rate?=1" target="_blank" class="rating-star" aria-label="Click here to rate a service as 1 star"><img src="https://i.postimg.cc/6QpnkLPS/star.png"  alt="rating star 1"/></a>
+                                <a href="https://some-domain-name/rate?=2" target="_blank" class="rating-star" aria-label="Click here to rate a service as 2 stars"><img src="https://i.postimg.cc/6QpnkLPS/star.png"  alt="rating star 2"/></a>
+                                <a href="https://some-domain-name/rate?=3" target="_blank" class="rating-star" aria-label="Click here to rate a service as 3 stars"><img src="https://i.postimg.cc/6QpnkLPS/star.png"  alt="rating star 3"/></a>
+                                <a href="https://some-domain-name/rate?=4" target="_blank" class="rating-star" aria-label="Click here to rate a service as 4 stars"><img src="https://i.postimg.cc/6QpnkLPS/star.png"  alt="rating star 4" /></a>
+                                <a href="https://some-domain-name/rate?=5" target="_blank" class="rating-star" aria-label="Click here to rate a service as 5 stars"><img src="https://i.postimg.cc/6QpnkLPS/star.png"  alt="rating star 5" /></a>
+                            </div>
+                        </div>
+                    </mj-text>
+                </mj-column>
+            </mj-section >
+        </mj-wrapper>
+        <mj-section padding="7px 0" border-radius="2px" background-color="#EBF0F3">
+            <mj-column>
+                <mj-button href="https://some-domain-name/track" target="_blank" css-class="button" inner-padding="17px 25px" background-color="#000333" border-radius="50px" align="right">
+                    <span styles="all: inherit" aria-label="Click here to track your parcel">Track your parcel</span>
+                    <img src="https://i.postimg.cc/65w1SF9p/chevron-right.png" alt="" aria-hidden="true"/>
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-wrapper padding="7px 25px 7px" background-color="#EBF0F3">
+            <mj-section padding="20px 25px" background-color="white" border="1px solid #D8E8F2" border-radius="2px" >
+                <mj-column>
+                    <mj-text color="black" padding="0">
+                        <div class="image-wrapper" style="display: inline-block; width: 20%;">
+                            <img src="https://i.postimg.cc/Bv0fW2rx/info.png" width="80px" alt="user icon" />
+                        </div>
+                        <div style="display: inline-block; width: 78%; vertical-align: top;">
+                            <h2 style="font-size: 18px; line-height: 24px; margin-bottom: 10px">We have a range of return methods</h2>
+                            <p style="font-size: 16px; line-height: 22px; margin-bottom: 20px">ParcelShop drop off with label printing in ParcelShop, Locker drop off & Courier collection</p>
+                            <a href="https://some-domain-name/return" target="_blank" aria-label="Click here to return your parcel" class="button-alt"><span styles="all: inherit">Return your parcel</span></a>
+                        </div>
+                    </mj-text>
+                </mj-column>
+            </mj-section >
+        </mj-wrapper>
+        <mj-section padding="17px 25px 7px" background-color="#EBF0F3">
+            <mj-column padding="8px 25px" background-color="#00127D" border-radius="2px">
+                <mj-text css-class="tracking-number" color="white" align="center">
+                    <h3 style="font-size: 16px; line-height: 22px;">Tracking number</h3>
+                    <p style="font-size: 16px; line-height: 22px; font-weight: normal; text-transform: uppercase">H04M8A0014371439</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="55px 25px" background-color="#EBF0F3">
+            <mj-column padding="0">
+                <mj-text css-class="tracking-number" color="#747C8F" padding="0">
+                    <p style="font-size: 14px; line-height: 20px; font-weight: normal; margin-bottom: 10px">We sent you this email on behalf of Gymshark as they've asked us to deliver a parcel to you.</p>
+                    <p style="font-size: 14px; line-height: 20px; font-weight: normal">We haven't signed you up to a mailing list, and we'll only use your email address to contact you about this parcel</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
